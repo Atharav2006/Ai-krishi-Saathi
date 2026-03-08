@@ -19,8 +19,8 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
-lib64/
+# lib/
+# lib64/
 parts/
 sdist/
 var/
@@ -117,7 +117,7 @@ New plant Diseases Dataset Detection.zip
 ml_pipeline/New plant Diseases Dataset*/
 ml_pipeline/*.keras
 ml_pipeline/*.tflite
-models/
+# models/
 *.keras
 *.tflite
 *.h5
@@ -140,6 +140,7 @@ traceback.txt
 *.txt
 !requirements.txt
 !README.md
+!CMakeLists.txt
 
 # Backend debug/test artifacts
 backend/crash.log
