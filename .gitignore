@@ -1,0 +1,147 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Flutter / Dart
+.dart_tool/
+.packages
+build/
+.pub-cache/
+.pub/
+/android/app/src/main/java/*
+/ios/Flutter/App.framework
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/app.flx
+/ios/Flutter/flutter_assets/
+/ios/Flutter/flutter_export_environment.sh
+/ios/Pods/
+/ios/.symlinks/
+*.jks
+*.keystore
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.smodel
+.hypothesis/
+.pytest_cache/
+
+# Databases
+*.db
+*.db-shm
+*.db-wal
+
+# Next.js
+.next/
+
+# Logs
+crash.log
+*.log
+
+# Large data / generated
+pricing_data/
+*.ipynb
+
+# Large zip files (exceed GitHub 100MB limit)
+!archive.zip
+
+# ML pipeline datasets and model artifacts
+ml_pipeline/data/
+ml_pipeline/models/
+ml_pipeline/datasets/
+ml_pipeline/pricing_data/
+New plant Diseases Dataset Detection.zip
+!New plant Diseases Dataset Detection.zip.part*
+ml_pipeline/New plant Diseases Dataset*/
+ml_pipeline/*.keras
+ml_pipeline/*.tflite
+models/
+*.keras
+*.tflite
+*.h5
+*.weights
+*.pkl
+*.model
+*.pb
+*.onnx
+*.joblib
+
+# Misc large/generated files
+*.csv
+*.h5
+*.pkl
+*.joblib
+*.tflite
+*.onnx
+registry_dump.json
+traceback.txt
+*.txt
+!requirements.txt
+!README.md
+
+# Backend debug/test artifacts
+backend/crash.log
+backend/*.log
+backend/static/audio/
