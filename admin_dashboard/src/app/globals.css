@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 15, 23, 42;
+  --background-start-rgb: 240, 253, 244;
+  --background-end-rgb: 255, 255, 255;
+  --nature-primary: 22, 163, 74;
+  --nature-secondary: 21, 128, 61;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: radial-gradient(circle at top left, #f0fdf4, #ffffff);
+  min-height: 100vh;
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/70 backdrop-blur-md border border-white/20 shadow-xl rounded-3xl;
+  }
+
+  .glass-sidebar {
+    @apply bg-nature-900/90 backdrop-blur-lg border-r border-white/10 shadow-2xl;
+  }
+
+  .premium-gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-emerald-800 font-bold;
+  }
+}
